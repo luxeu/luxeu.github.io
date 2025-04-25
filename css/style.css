@@ -184,6 +184,10 @@ section {
     overflow: hidden;
 }
 
+section.scrollto {
+    scroll-margin-top: 70px; /* Adjust for fixed navbar height */
+}
+
 /* Rows and Columns */
 
 .row {
@@ -769,7 +773,7 @@ h6 {
 .section-heading h3 {
     font-size: 14px;
     font-weight: bold;
-    color: #ccc;
+    color: #474747;
     letter-spacing: 2px;
     padding-bottom: 0;
 }
